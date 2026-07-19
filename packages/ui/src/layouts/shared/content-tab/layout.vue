@@ -10,6 +10,7 @@ import {
 	DropdownIcon,
 	FileIcon,
 	FilterIcon,
+	FolderPlusIcon,
 	FolderOpenIcon,
 	LinkIcon,
 	RefreshCwIcon,
@@ -763,6 +764,19 @@ const confirmUnlinkModal = ref<InstanceType<typeof ConfirmUnlinkModal>>()
 									>
 										<FolderOpenIcon class="size-5" />
 										{{ formatMessage(messages.uploadFiles) }}
+									</button>
+								</ButtonStyled>
+								<ButtonStyled type="outlined">
+									<button
+										v-tooltip="
+											ctx.busyMessage?.value ??
+											(ctx.disableAddContent?.value ? ctx.disableAddContentTooltip : undefined)
+										"
+										:disabled="ctx.isBusy.value || ctx.disableAddContent?.value"
+										class="!h-10"
+										@click=""
+									>
+										<FolderPlusIcon class="size-5" />
 									</button>
 								</ButtonStyled>
 							</div>

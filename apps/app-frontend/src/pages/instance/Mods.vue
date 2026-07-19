@@ -67,7 +67,7 @@
 
 <script setup lang="ts">
 import type { Labrinth } from '@modrinth/api-client'
-import { ClipboardCopyIcon, FolderOpenIcon } from '@modrinth/assets'
+import { ClipboardCopyIcon, FolderInputIcon, FolderOpenIcon } from '@modrinth/assets'
 import {
 	type BulkOperationStatus,
 	commonMessages,
@@ -1187,6 +1187,11 @@ function getOverflowOptions(item: ContentItem): OverflowMenuOption[] {
 		})
 	}
 
+	options.push({
+		id: formatMessage(commonMessages.moveToFolderButton),
+		icon: FolderInputIcon,
+		action: () => {},
+	})
 	return options
 }
 

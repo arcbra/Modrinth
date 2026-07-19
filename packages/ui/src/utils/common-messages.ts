@@ -605,6 +605,10 @@ export const commonMessages = defineMessages({
 		id: 'button.move',
 		defaultMessage: 'Move',
 	},
+	moveToFolderButton: {
+		id: 'button.move-to-folder',
+		defaultMessage: 'Move to folder...',
+	},
 	extractButton: {
 		id: 'button.extract',
 		defaultMessage: 'Extract',

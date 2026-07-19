@@ -127,7 +127,9 @@ import _FoldVerticalIcon from './icons/fold-vertical.svg?component'
 import _FolderIcon from './icons/folder.svg?component'
 import _FolderArchiveIcon from './icons/folder-archive.svg?component'
 import _FolderCogIcon from './icons/folder-cog.svg?component'
+import _FolderInputIcon from './icons/folder-input.svg?component'
 import _FolderOpenIcon from './icons/folder-open.svg?component'
+import _FolderPlusIcon from './icons/folder-plus.svg?component'
 import _FolderSearchIcon from './icons/folder-search.svg?component'
 import _FolderUpIcon from './icons/folder-up.svg?component'
 import _GameIcon from './icons/game.svg?component'
@@ -558,7 +560,9 @@ export const FoldVerticalIcon = _FoldVerticalIcon
 export const FolderIcon = _FolderIcon
 export const FolderArchiveIcon = _FolderArchiveIcon
 export const FolderCogIcon = _FolderCogIcon
+export const FolderInputIcon = _FolderInputIcon
 export const FolderOpenIcon = _FolderOpenIcon
+export const FolderPlusIcon = _FolderPlusIcon
 export const FolderSearchIcon = _FolderSearchIcon
 export const FolderUpIcon = _FolderUpIcon
 export const GameIcon = _GameIcon
